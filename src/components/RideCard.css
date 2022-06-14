@@ -1,0 +1,53 @@
+.card-container {
+  display: flex;
+  align-items: center;
+  height: 24vh;
+  width: 85vw;
+  background-color: #171717;
+  border-radius: 10px;
+  margin: 2vh 7vw;
+  color: #cfcfcf;
+  position: relative;
+}
+.map-container {
+  display: flex;
+  margin: 2vh 2vw;
+}
+
+.map-container img {
+  height: 20vh;
+  border-radius: 10px;
+  width: 20vw;
+}
+
+.ride-details .details {
+  font-size: 1.3rem;
+  font-weight: 400;
+  color: #cfcfcf;
+  line-height: 1.6;
+}
+
+.ride-details .details span {
+  color: #ffffff;
+}
+
+.city,
+.state {
+  display: flex;
+  font-size: 0.9rem;
+  padding: 5px 20px;
+  background-color: #0a0a0a;
+  border-radius: 20px;
+  margin: 10px;
+}
+
+.cityAndState {
+  display: flex;
+  position: absolute;
+  top: 20px;
+  right: 35px;
+}
+
+.state {
+  right: 20px;
+}
